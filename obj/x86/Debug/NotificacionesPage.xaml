@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="EjemploApp.Notificaciones"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EjemploApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="136,99,0,0" TextWrapping="Wrap" Text="Página de notificaciones" VerticalAlignment="Top" FontSize="36"/>
+        <CalendarView Margin="133,226,0,0" VerticalAlignment="Top" Height="419" Width="513"/>
+        <CalendarDatePicker Margin="972,325,0,0" VerticalAlignment="Top" Width="227"/>
+        <Slider HorizontalAlignment="Left" Margin="223,724,0,0" VerticalAlignment="Top" Width="100"/>
+        <RichEditBox Margin="876,394,198,266"/>
+        <RadioButton Content="RadioButton" Margin="526,718,0,0" VerticalAlignment="Top"/>
+        <ProgressBar Value="50"  HorizontalAlignment="Left" Height="10" Margin="387,848,0,0" VerticalAlignment="Top" Width="908"/>
+        <ComboBox Margin="904,22,0,0" Width="145">
+            <ComboBoxItem Content="Burgos"/>
+            <ComboBoxItem Content="Alessandro"/>
+            <ComboBoxItem Content="Susan"/>
+            <CheckBox Content="Sos guapo"/>
+            <ListBoxItem Content="Ricaldone"/>
+        </ComboBox>
+
+    </Grid>
+</Page>
+
